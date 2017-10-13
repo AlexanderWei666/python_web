@@ -51,3 +51,22 @@ python -m ipykernel install --user
 
 ## 安装MySQL
 
+#### 软件安装
+安装时用管理员权限安装，然后设置简单的root密码（实际项目中根据需求设置账户和密码），设置编码为UTF-8
+#### 安装连接
+```shell
+conda install mysql-connector-python
+```
+## 安装开发框架
+#### 异步框架aiohttp
+```shell
+conda install aiohttp
+```
+#### 前端模板引擎jinja2：
+```shell
+conda install jinja2
+```
+#### MySQL的Python异步驱动程序aiomysql：
+```python
+pip install aiomysql
+```
