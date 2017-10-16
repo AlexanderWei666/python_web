@@ -1,5 +1,6 @@
 www/__pycache__/models.cpython-36.pyc
 www/__pycache__/orm.cpython-36.pyc
+<<<<<<< HEAD
 www/__pycache__/markdown2.cpython-36.pyc
 www/__pycache__/handlers.cpython-36.pyc
 www/__pycache__/coroweb.cpython-36.pyc
@@ -7,6 +8,15 @@ www/__pycache__/config_override.cpython-36.pyc
 www/__pycache__/config_default.cpython-36.pyc
 www/__pycache__/config.cpython-36.pyc
 www/__pycache__/apis.cpython-36.pyc
+=======
+www/__pycache__/handlers.cpython-36.pyc
+www/__pycache__/coroweb.cpython-36.pyc
+www/__pycache__/apis.cpython-36.pyc
+www/__pycache__/config_override.cpython-36.pyc
+www/__pycache__/config_default.cpython-36.pyc
+www/__pycache__/config.cpython-36.pyc
+www/__pycache__/markdown2.cpython-36.pyc
+>>>>>>> dev
 ios/AwsomeAppTests/en.lproj/InfoPlist.strings
 ios/AwsomeAppTests/AwsomeAppTests.m
 ios/AwsomeAppTests/AwsomeAppTests-Info.plist
