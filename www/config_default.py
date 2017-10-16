@@ -1,9 +1,3 @@
-'''
-Default configurations.
-'''
-
-__author__ = 'Michael Liao'
-
 configs = {
     'debug': True,
     'db': {

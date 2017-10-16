@@ -1,11 +1,15 @@
-import config_default
+'''
+Configuration
+'''
 
+__author__ = 'Michael Liao'
+
+import config_default
 
 class Dict(dict):
     '''
     Simple dict but support access as x.y style.
     '''
-
     def __init__(self, names=(), values=(), **kw):
         super(Dict, self).__init__(**kw)
         for k, v in zip(names, values):
@@ -20,7 +24,6 @@ class Dict(dict):
     def __setattr__(self, key, value):
         self[key] = value
 
-
 def merge(defaults, override):
     r = {}
     for k, v in defaults.items():
@@ -33,13 +36,11 @@ def merge(defaults, override):
             r[k] = v
     return r
 
-
 def toDict(d):
     D = Dict()
     for k, v in d.items():
         D[k] = toDict(v) if isinstance(v, dict) else v
     return D
-
 
 configs = config_default.configs
 
